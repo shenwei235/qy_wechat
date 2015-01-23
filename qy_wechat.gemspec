@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
   s.add_dependency 'railties', '>= 3.1'
-  s.add_dependency 'nokogiri', '>= 1.6.1'
+  s.add_dependency 'nokogiri', '~> 1.6.5'
   s.add_runtime_dependency 'rails', '>= 3.1'
 
   s.add_dependency 'multi_xml', '>= 0.5.2'
